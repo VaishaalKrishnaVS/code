@@ -4,6 +4,5 @@
     },
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.formatting.provider": "autopep8",
-    "python.pythonPath": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+    "python.formatting.provider": "autopep8"
 }
