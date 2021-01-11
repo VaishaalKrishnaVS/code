@@ -362,3 +362,145 @@
 #    print("it is not palindrome")
 
 #####################################################################################################
+
+########################### GCD #################################################
+
+#a = int(input("enter first no"))
+#b = int(input("enter second no"))
+#m = a
+#n = b
+# while (a != b):
+#    if a > b:
+#        a = a-b
+#    elif b > a:
+#        b = b-a
+#
+#print(f"{a} is the GCD of {m} and {n}")
+
+#######################################################################################
+
+############################ fibonacci series #########################################
+
+#a = int(input())
+#m = 0
+#n = 1
+# print(m)
+#
+# for i in range(2, a+1):
+#    b = m+n
+#    m = n
+#    n = b
+#    print(m)
+
+#########################################################################################
+
+####################### loops #################################################
+
+#a = int(input())
+##a = 5
+# for i in range(a+1):
+#    for j in range(1, i+1):
+#        print(j, end=" ")
+#    print("")
+#
+# for i in range(a+1):
+#    for j in range(1, i+1):
+#        print("*", end=" ")
+#    print("")
+
+###################################################################################
+
+################### office ##################################################################
+
+#a = int(input())
+#b = int(input())#
+
+#c = 0
+#d = 0
+# for sal in range(b):
+#    c = a + sal*200
+#    print(c)
+#    d += c#
+
+# print(d)
+#a = "Hello world"
+# print(a.capitalize())
+# print(a.upper())
+# print(a.lower())
+# print(a.swapcase())
+# print(a.title())
+# print(a.find("llo"))
+#print(a.split(' '))
+# print(a.count('Hello'))
+#print(a.center(25, "*"))
+#print(a.replace('Hello', 'happy'))
+#print(a.join(" . "))
+# print(a.isupper())
+# print(a.islower())
+# print(a.isalpha())
+# print(a.isalnum())
+# print(a.isdigit())
+# print(a.isspace())
+# print(a.istitle())
+# print(a.startswith("h"))
+# print(max(a))
+# print(min(a))
+# print(len(a))
+#ths = {1, 2, 4, 5, 6, 3}
+# print(ths)
+
+################################################################################
+
+############# Square root using newtons method #################################
+
+# def mySqrt(x):
+#
+#    n = x
+#    p = 10 ** (-10)
+#
+#    while abs(x - n * n) > p:
+#        n = (n + x / n) / 2
+#
+#    return n
+#
+#
+#a = int(input("Enter your no: "))
+#ans = mySqrt(a)
+#print(f"The square root of {a} is {ans}")
+
+################################################################################
+
+#################### stu  and  dep #############################################
+
+#no_of_students = int(input())
+#list_of_students = []
+#
+# for i in range(no_of_students):
+#    list_of_students.append(input())
+#
+#branch_name = input()
+#
+# for i in range(no_of_students):
+#    student_name, branch = list_of_students[i].split()
+#    if branch_name == branch:
+#        print(student_name)
+
+###############################################################################
+
+################ vowel replacer ##############################################
+
+#given_string = list(input())
+#new_list = []
+#
+# for i in range(len(given_string)):
+#    if given_string[i] in 'aeiou':
+#        new_list.append(i)
+#
+#reversed_string = given_string[::-1]
+#
+# new_list.sort(reverse=True)
+#
+# for i in range(len(new_list)):
+#    reversed_string.pop(new_list[i])
+#
+# print("".join(reversed_string))
